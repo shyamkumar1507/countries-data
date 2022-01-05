@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest Countries</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+        </style>
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+<body>
+    <div id="root" class = "main-container">
+       <div class="header-container">
+           <header>
+               <div class="header-content">
+                 <h2>Where in the world</h2>
+                 <span>Dark Mode</span>
+               </div>
+           </header>
+          <div class="search-and-filter-container">
+               <div class="search-con">
+                <form autocomplete="off" id="search-box-form">  
+                <input class="search-box" id="search-box" type="text" placeholder="Search for a country...">
+                </form>
+               </div>
+               <div class="drop-down-filter">
+                   <select class="region-drop-down" id="region-drop-down" name="Filter by region">
+                       <option>Select the region</option>
+                       
+                   </select>
+               </div>
+           </div>
+       </div>
+       <div class="country-cards" id="country-cards">
+        
+       </div>
+            
+    </div>
+    <script src="jscript.js"></script> <!-- Adding script  -->
+   
+</body>
+</html>
